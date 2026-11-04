@@ -57,4 +57,4 @@ Poetic chatbot messages:
                 "role": "user",
                 "content": prompt
             }
-        ]
+]
