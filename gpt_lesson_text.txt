@@ -24,7 +24,7 @@ Text summarizer messages:
           "role": "user",
           "content": prompt
         }
-      ]
+]
 
 
 Prompt text:

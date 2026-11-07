@@ -35,22 +35,24 @@ clean-text
 scikit-learn
 sentencepiece
 pandas
+python-dotenv
 ```
 
 ## Updates
 
 The world of AI is constantly evolving with new techniques and models emerging all the time. So, while we do our best to keep everything up to date, sometimes the code in this repo may get updated before the accompanying video lessons. To make sure you're getting the most out of this course, we recommend you always use the latest code here alongside the video lessons, while we work on updating the videos. 
 
-## UV Environment
+## Use Google Colab
 
-Virtual environments are a great way to manage different packages for different projects. Creating a virtual environment for this section of the course allows you to ensure you can use the correct packages to follow along, without affecting any other packages you already have installed. 
+[Google Colab](https://colab.research.google.com/) has the only fastest environment for running jupyter notebooks especially if you have a slower PC. 
+Luckily, it is an asset if you have a high-performance PC as you can also run notebooks in an IDE fastly.
 
+If you use an IDE like VS Code or PyCharm for this project, run in terminal:
 ```
 uv venv
 uv pip install -r requirements.txt
 ```
+
 ## Note
 
-1. You need to install [Microsoft VS Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/) now for ```langchain``` but may not be required in future.
-2. `faiss-cpu` will not work with python 3.15 version now but may be during 2027.
-3. To run `sentencepiece`, you need to first run `winget install Kitware.CMake`.
+1. You will face problem with installing `langchain` because newer python version 3.15 does not support 3.14 its modules.
